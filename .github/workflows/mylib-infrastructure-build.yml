@@ -1,4 +1,4 @@
-name: MyLib Infrastructure Build
+name: Infrastructure Build
 
 on:
   push:
@@ -15,14 +15,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v3
-      with:
-        dotnet-version: 8.0.x
-    - name: Restore dependencies
-      working-directory: src/MyLib.Infrastructure
-      run: dotnet restore
-    - name: Build
-      working-directory: src/MyLib.Infrastructure
-      run: dotnet build --no-restore
+      - uses: actions/checkout@v3
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 8.0.x
+      - name: Restore dependencies
+        working-directory: src/MyLib.Infrastructure
+        run: dotnet restore
+      - name: Build
+        working-directory: src/MyLib.Infrastructure
+        run: dotnet build --no-restore
