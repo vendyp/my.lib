@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     
     <RootNamespace>MyLib.Infrastructure</RootNamespace>
-    <PackageVersion>0.0.1-alpha</PackageVersion>
+    <PackageVersion>0.0.2-alpha</PackageVersion>
     <Authors>Dwi Vendy Pratama</Authors>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/vendyp/my.lib</RepositoryUrl>
