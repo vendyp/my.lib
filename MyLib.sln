@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{91883FA2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLib.Tests", "tests\MyLib.Tests\MyLib.Tests.csproj", "{6845A488-A134-437A-BEA1-B26C5793ADAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLib.DependencyInjectionExtensions", "src\MyLib.DependencyInjectionExtensions\MyLib.DependencyInjectionExtensions.csproj", "{E691843A-B84A-4336-94E9-491DD6FB1C2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,10 +36,15 @@ Global
 		{6845A488-A134-437A-BEA1-B26C5793ADAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6845A488-A134-437A-BEA1-B26C5793ADAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6845A488-A134-437A-BEA1-B26C5793ADAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E691843A-B84A-4336-94E9-491DD6FB1C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E691843A-B84A-4336-94E9-491DD6FB1C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E691843A-B84A-4336-94E9-491DD6FB1C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E691843A-B84A-4336-94E9-491DD6FB1C2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{39C62853-B6A0-4DD7-B1A4-7401EBE77DB8} = {B3427C89-68AB-4F82-85C6-4F3AA7D73608}
 		{96926575-8525-4EB9-A3EC-AAC6A01B9524} = {B3427C89-68AB-4F82-85C6-4F3AA7D73608}
 		{6845A488-A134-437A-BEA1-B26C5793ADAD} = {91883FA2-12C5-47F4-BD26-9A47E2FE1850}
+		{E691843A-B84A-4336-94E9-491DD6FB1C2E} = {B3427C89-68AB-4F82-85C6-4F3AA7D73608}
 	EndGlobalSection
 EndGlobal

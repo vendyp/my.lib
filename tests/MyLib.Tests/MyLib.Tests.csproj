@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\MyLib.Infrastructure\MyLib.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\MyLib.DependencyInjectionExtensions\MyLib.DependencyInjectionExtensions.csproj" />
   </ItemGroup>
 
 </Project>
