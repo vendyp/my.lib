@@ -11,7 +11,7 @@ on:
       - 'src/MyLib.DependencyInjectionExtensions/**'
 
 jobs:
-  build:
+  DependencyInjection-Build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3

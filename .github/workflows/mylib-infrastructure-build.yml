@@ -11,7 +11,7 @@ on:
       - 'src/MyLib.Infrastructure/**'
 
 jobs:
-  build:
+  Infrastructure-Build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
