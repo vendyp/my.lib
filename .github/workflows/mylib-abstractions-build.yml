@@ -3,17 +3,16 @@ name: Abstractions Build
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - 'src/MyLib.Abstractions'
   pull_request:
     branches: [ "main" ]
     paths:
-      - 'src/'
-      - 'tests/'
+      - 'src/MyLib.Abstractions'
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
       - name: Setup .NET

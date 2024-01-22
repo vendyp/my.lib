@@ -3,17 +3,16 @@ name: Infrastructure Build
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - 'src/MyLib.Infrastructure'
   pull_request:
     branches: [ "main" ]
     paths:
-      - 'src/'
-      - 'tests/'
+      - 'src/MyLib.Infrastructure'
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
       - name: Setup .NET

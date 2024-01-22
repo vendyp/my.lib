@@ -3,6 +3,8 @@ name: Dependency Injection Build
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - 'src/MyLib.DependencyInjectionExtensions'
   pull_request:
     branches: [ "main" ]
     paths:
@@ -10,9 +12,7 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
       - name: Setup .NET
