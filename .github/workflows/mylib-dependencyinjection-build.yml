@@ -4,11 +4,11 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - 'src/MyLib.DependencyInjectionExtensions'
+      - 'src/MyLib.DependencyInjectionExtensions/'
   pull_request:
     branches: [ "main" ]
     paths:
-      - 'src/MyLib.DependencyInjectionExtensions'
+      - 'src/MyLib.DependencyInjectionExtensions/'
 
 jobs:
   build:
